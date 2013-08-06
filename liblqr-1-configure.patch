@@ -1,0 +1,11 @@
+diff -aurN liblqr-1-0.4.2.orig/configure.ac liblqr-1-0.4.2/configure.ac
+--- liblqr-1-0.4.2.orig/configure.ac	2013-08-06 12:14:00.173575614 +0200
++++ liblqr-1-0.4.2/configure.ac	2013-08-06 12:14:34.872920451 +0200
+@@ -68,6 +68,7 @@
+ AC_PROG_LN_S
+ AC_PROG_MAKE_SET
+ AC_PROG_RANLIB
++AM_PROG_AR
+ AC_HEADER_STDC
+ 
+ AC_C_INLINE
